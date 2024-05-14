@@ -4,7 +4,7 @@ const footer = () => {
     return (
 <div className="mx-auto ">
 <div className=" 
-        w-[320px]  md:w-[588px] lg:w-full  p-2  bg-[#2C343E] flex items-center 
+        w-[371px]  md:w-[588px] lg:w-full  p-2  bg-[#2C343E] flex items-center 
          h-[346px] md:h-[270px] lg:h-[120px]">
          <div className="flex mx-auto   flex-col md:flex-col lg:flex-row 
          lg:justify-around   w-[327px]  md:w-[440px]  lg:w-full ">
