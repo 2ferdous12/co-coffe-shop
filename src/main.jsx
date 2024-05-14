@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import Route from './componenet/route';
 import Home from './componenet/home';
-
+import About from './componenet/about';
 
 import {
   createBrowserRouter,
@@ -18,6 +18,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>
+      },
+      {
+        path: "/about",
+        element: <About></About>
       }
     ]
   },
