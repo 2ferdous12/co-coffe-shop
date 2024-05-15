@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const home = () => {
     return (
@@ -11,7 +12,7 @@ const home = () => {
                             <h1 className="mb-5 text-5xl md:text-7xl lg:text-7xl font-bold">Great coffee <br /> made simple.</h1>
                             <p className="mb-5 w-[300px] md:w-[500px] lg:w-[500px]">Start your mornings with the worlds best coffees. Try our expertly curated artisan
                                 coffees from our best roasters delivered directly to your door, at your schedule.</p>
-                            <button className="w-[200px] hover:bg-[#66D2CF] cursor-pointer text-xl rounded-md h-[56px] text-white font-bold bg-[#0E8784]">Create your plan</button>
+                            <Link to="/createPlan" className="w-[200px] p-3 hover:bg-[#66D2CF] cursor-pointer text-xl rounded-md h-[56px] text-white font-bold bg-[#0E8784]">Create your plan</Link>
                         </div>
                     </div>
                 </div>
@@ -71,7 +72,7 @@ const home = () => {
                 <div className="flex flex-col md:flex-col lg:flex-row gap-5 w-[371px] md:w-[588px] lg:w-[1080px] pl-6 md:pl-0 lg:pl-0 mt-10 md:ml-10  lg:ml-10 -translate-y-52">
                     <div className="flex flex-col md:flex-row lg:flex-col items-center w-[320px]  md:w-[506px] lg:w-[320px] h-[382px] 
                     md:h-[180px] lg:h-[372px] text-center pt-14 md:pt-0 lg:pt-14 bg-[#0E8784] rounded-md">
-                        <img className="mx-auto md:w-[56px] lg:w-[71px] md:h-[56px] lg:h-[71px]  " src="/public/images/about/icon-coffee-bean.svg" alt="" />
+                        <img className="mx-auto md:w-[56px] lg:w-[71px] md:h-[56px] lg:h-[71px]  " src="/images/about/icon-coffee-bean.svg" alt="" />
                         <div className="">
                             <h4 className="text-xl text-[#FEFCF7] font-bold mt-10 mb-5 mr-5">Best quality</h4>
                             <p className="mx-auto md:w-[344px] lg:w-[255px] text-[#FEFCF7] mr-2 md:mr-5 lg:mr-5">Discover an endless variety of the worlds best artisan coffee from each of our roasters.</p>
@@ -79,7 +80,7 @@ const home = () => {
                     </div>
                     <div className="flex flex-col md:flex-row lg:flex-col items-center w-[320px]  md:w-[506px] lg:w-[320px] h-[382px] 
                     md:h-[180px] lg:h-[372px] text-center pt-14 md:pt-0 lg:pt-14 bg-[#0E8784] rounded-md">
-                        <img className="mx-auto md:w-[56px] lg:w-[71px] md:h-[56px] lg:h-[71px]  " src="/public/images/about/icon-gift.svg" alt="" />
+                        <img className="mx-auto md:w-[56px] lg:w-[71px] md:h-[56px] lg:h-[71px]  " src="/images/about/icon-gift.svg" alt="" />
                         <div className="">
                             <h4 className="text-xl text-[#FEFCF7] font-bold mt-10 mb-5 mr-5">Exclusive benefits</h4>
                             <p className="mx-auto md:w-[344px] lg:w-[255px] text-[#FEFCF7] mr-2 md:mr-5 lg:mr-5">Special offers and swag when you subscribe, including 30% off your first shipment.</p>
@@ -87,7 +88,7 @@ const home = () => {
                     </div>
                     <div className="flex flex-col md:flex-row lg:flex-col items-center w-[320px]  md:w-[506px] lg:w-[320px] h-[382px]  
                     md:h-[180px] lg:h-[372px] text-center pt-14 md:pt-0 lg:pt-14 bg-[#0E8784] rounded-md">
-                        <img className="mx-auto md:w-[56px] lg:w-[71px] md:h-[56px] lg:h-[71px]  " src="/public/images/about/icon-truck.svg" alt="" />
+                        <img className="mx-auto md:w-[56px] lg:w-[71px] md:h-[56px] lg:h-[71px]  " src="/images/about/icon-truck.svg" alt="" />
                         <div className=" ">
                             <h4 className="text-xl text-[#FEFCF7] font-bold mt-10 mb-5 mr-5">Free shipping</h4>
                             <p className="mx-auto md:w-[344px] lg:w-[255px] text-[#FEFCF7] mr-2 md:mr-5 lg:mr-5">We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.</p>
@@ -102,26 +103,26 @@ const home = () => {
             </div>
 
 
-            <div className="flex flex-col md:flex-row lg:flex-row gap-0 md:gap-5 lg:gap-5 items-center w-[371px] md:w-[588px] lg:w-[1080px] pl-10 md:pl-0 lg:pl-0 md:ml-0 lg:ml-10 ">
-                <div className="w-[320px] h-[372px]   pt-0 md:pt-14  lg:pt-14  rounded-md">
-                    <img className="" src="/public/images/home/01.png" alt="" />
+            <div className="flex flex-col md:flex-row lg:flex-row  md:gap-5 lg:gap-5 items-center w-[371px] md:w-[588px] lg:w-[1080px] pl-10 md:pl-0 lg:pl-0 md:ml-0 lg:ml-10 ">
+                <div className="w-[320px]  h-[252px]  md:h-[372px]  lg:h-[372px]  pt-0 md:pt-14  lg:pt-14  rounded-md">
+                    <img className="" src="/images/home/01.png" alt="" />
                     <h4 className="text-xl text-[#333D4B] font-bold mt-10 mb-5">Best quality</h4>
                     <p className=" w-[255px] md:w-[190px] lg:w-[255px] text-[#333D4B]">Discover an endless variety of the worlds best artisan coffee from each of our roasters.</p>
                 </div>
-                <div className="w-[320px] h-[372px] pt-0 md:pt-14  lg:pt-14  rounded-md">
-                    <img className="" src="/public/images/home/02.png" alt="" />
+                <div className="w-[320px]  h-[252px]  md:h-[372px]  lg:h-[372px] pt-0 md:pt-14  lg:pt-14  rounded-md">
+                    <img className="" src="/images/home/02.png" alt="" />
                     <h4 className="text-xl text-[#333D4B] font-bold mt-10 mb-5">Exclusive benefits</h4>
                     <p className=" w-[255px] md:w-[200px] lg:w-[255px] text-[#333D4B]">Special offers and swag when you subscribe, including 30% off your first shipment.</p>
                 </div>
-                <div className="w-[320px]  h-[372px]  pt-0 md:pt-14  lg:pt-14 rounded-md">
-                    <img className="" src="/public/images/home/03.png" alt="" />
+                <div className="w-[320px]   h-[252px]  md:h-[372px]  lg:h-[372px]  pt-0 md:pt-14  lg:pt-14 rounded-md">
+                    <img className="" src="/images/home/03.png" alt="" />
                     <h4 className="text-xl text-[#333D4B] font-bold mt-10 mb-5">Free shipping</h4>
                     <p className=" w-[255px] md:w-[190px] lg:w-[255px] text-[#333D4B]">We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.</p>
                 </div>
             </div>
-
+            {/* mt-5 md:mt-10 lg:mt-10  */}
             <div className="ml-5 mb-10">
-                <button className="w-[200px] hover:bg-[#66D2CF] cursor-pointer text-xl rounded-md h-[56px] text-white font-bold bg-[#0E8784]">Create your plan</button>
+            <Link to="/createPlan" className="w-[200px] hover:bg-[#66D2CF] cursor-pointer text-xl rounded-md h-[56px] p-3 text-white font-bold bg-[#0E8784]">Create your plan</Link>
             </div>
 
 

@@ -4,6 +4,7 @@ import './index.css'
 import Route from './componenet/route';
 import Home from './componenet/home';
 import About from './componenet/about';
+import CreatePlan from './componenet/createPlan';
 
 import {
   createBrowserRouter,
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: "/about",
         element: <About></About>
+      },
+      {
+        path: "/createPlan",
+        element: <CreatePlan></CreatePlan>
       }
     ]
   },

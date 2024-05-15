@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const footer = () => {
@@ -12,9 +13,9 @@ const footer = () => {
             <img className='w-[203px]  mx-auto h-[24px] mb-6  md:mb-8  lg:mb-0'  src="/images/about/coffeeroasters.png" alt="" />
             </div>
             <div className="flex flex-col mx-auto md:flex-row lg:flex-row items-center gap-6 md:gap-10 lg:gap-10 text-[#83888F] mb-6  md:mb-8  lg:mb-0 font-bold">
-                <p>HOME</p>
-                <p>ABOUT US</p>
-                <p>CREATE YOUR PLAN</p>
+                <Link to="/">HOME</Link>
+                <Link to="/about">ABOUT US</Link>
+                <Link to="/createPlan">CREATE YOUR PLAN</Link>
             </div>
             <div className="flex justify-center gap-6 ">
                 <img src="/images/about/Path.svg" alt="" />

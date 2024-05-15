@@ -21,7 +21,7 @@ const about = () => {
 
             <div className="flex flex-col md:flex-row lg:flex-row justify-between items-center mt-10 gap-5 mb-20 md:mb-20 lg:mb-10">
                 <div className="w-[371px] md:w-[481px] lg:w-[481px] h-[470px]">
-                    <img className="w-[371px] md:w-[481px] lg:w-[481px] h-[470px]" src="/public/images/home/image-commitment.jpg" alt="" />
+                    <img className="w-[371px] md:w-[481px] lg:w-[481px] h-[470px]" src="/images/home/image-commitment.jpg" alt="" />
                 </div>
                 <div className="mx-auto">
                   <h3 className="text-3xl font-bold text-[#333D4B]">Our commitment</h3>
@@ -49,7 +49,7 @@ const about = () => {
                     so that brewing is easy and enjoyable.</p>
             </div>
             <div className="absolute w-[371px] md:w-[473px] lg:w-[445px] rounded-lg h-[474px] md:h-[320px] lg:h-[474px] right-0 md:right-14 lg:right-0 -top-72  md:-top-60 lg:-top-20">
-            <img  className="absolute  w-[371px] rounded-lg md:w-[473px] lg:w-[509px] md:h-[320px] lg:h-[474px] " src="/public/images/home/image-quality.jpg" alt="" />
+            <img  className="absolute  w-[371px] rounded-lg md:w-[473px] lg:w-[509px] md:h-[320px] lg:h-[474px] " src="/images/home/image-quality.jpg" alt="" />
             </div>
             </div>
             <div className="mt-10 mb-10 ml-5">
@@ -57,25 +57,25 @@ const about = () => {
             </div>
 
             <div className="flex flex-col md:flex-row lg:flex-row gap-0 md:gap-5 lg:gap-5 items-center w-[371px] md:w-[588px] lg:w-[1080px] pl-10 md:pl-0 lg:pl-0 md:ml-0 lg:ml-10 ">
-                <div className="w-[320px] md:w-[220px] lg:w-[320px]  h-[372px]   pt-0 md:pt-14  lg:pt-14  rounded-md">
-                    <img className="" src="/public/images/about/Combined Shape.png" alt="" />
-                    <h4 className="text-xl text-[#333D4B] font-bold mt-10 mb-5">Best quality</h4>
+                <div className="w-[320px] md:w-[220px] lg:w-[320px]   h-[252px]  md:h-[372px]  lg:h-[372px]  pt-0 md:pt-14  lg:pt-14  rounded-md">
+                    <img className="" src="/images/about/Combined Shape.png" alt="" />
+                    <h4 className="text-xl text-[#333D4B] font-bold mt-5 md:mt-10 lg:mt-10 mb-5">United Kingdom</h4>
                     <p className=" w-[255px]  text-[#333D4B]">36 Swanston Street</p>
                     <p className=" w-[255px]  text-[#333D4B]">Kewell</p>
                     <p className=" w-[255px]  text-[#333D4B]">Victoria</p>
                     <p className=" w-[255px]  text-[#333D4B]">+61 4 9928 3629</p>
                 </div>
-                <div className="w-[320px] md:w-[220px] lg:w-[320px]  h-[372px] pt-0 md:pt-14  lg:pt-14  rounded-md">
-                    <img className="" src="/public/images/about/Combined Shape.png" alt="" />
-                    <h4 className="text-xl text-[#333D4B] font-bold mt-10 mb-5">Exclusive benefits</h4>
+                <div className="w-[320px] md:w-[220px] lg:w-[320px]   h-[252px]  md:h-[372px]  lg:h-[372px] pt-0 md:pt-14  lg:pt-14  rounded-md">
+                    <img className="" src="/images/about/Combined Shape.png" alt="" />
+                    <h4 className="text-xl text-[#333D4B] font-bold mt-5 md:mt-10 lg:mt-10 mb-5">Canada</h4>
                     <p className=" w-[255px]  text-[#333D4B]">1528  Eglinton Avenue</p>
                     <p className=" w-[255px]  text-[#333D4B]">Toronto</p>
                     <p className=" w-[255px]  text-[#333D4B]">Ontario M4P 1A6</p>
                     <p className=" w-[255px]  text-[#333D4B]">+1 416 485 2997</p>
                 </div>
-                <div className="w-[320px] md:w-[220px] lg:w-[320px]   h-[372px]  pt-0 md:pt-14  lg:pt-14 rounded-md">
-                    <img className="" src="/public/images/about/Combined Shape.png" alt="" />
-                    <h4 className="text-xl text-[#333D4B] font-bold mt-10 mb-5">Free shipping</h4>
+                <div className="w-[320px] md:w-[220px] lg:w-[320px]    h-[252px]  md:h-[372px]  lg:h-[372px]  pt-0 md:pt-14  lg:pt-14 rounded-md">
+                    <img className="" src="/images/about/Combined Shape.png" alt="" />
+                    <h4 className="text-xl text-[#333D4B] font-bold mt-5 md:mt-10 lg:mt-10 mb-5">Australia</h4>
                     <p className=" w-[255px]  text-[#333D4B]">68  Asfordby Rd</p>
                     <p className=" w-[255px]  text-[#333D4B]">Alcaston</p>
                     <p className=" w-[255px]  text-[#333D4B]">SY6 1YA</p>
